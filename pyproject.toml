@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "yandex-musix-exporter"
+version = "0.1.0"
+description = ""
+authors = ["r4start <r4start@protonmail.ch>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+yandex-music = {git = "https://github.com/MarshalX/yandex-music-api.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
